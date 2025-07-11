@@ -188,7 +188,7 @@ body{
     
 }
 .getInTouch-form textarea {
-    width: 100%;
+    width: 520px;
     height: 110px;
     font-family: 'Inter', sans-serif;
     padding: 20px;
@@ -225,7 +225,7 @@ footer .logo{
 }
 footer ul li{
     list-style: none;
-    margin-right: 10px;
+    margin-right: 40px;
     
 }
 footer ul li a{
