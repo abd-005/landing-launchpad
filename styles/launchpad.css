@@ -35,7 +35,7 @@
 .btn-primary:hover {
     background-color: #f5f8ffd3;
     color: #4E47FF;
-    transform: translateY(-3px);
+    transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(78, 71, 255, 0.3);
 }
 .dark-2{
@@ -48,6 +48,7 @@
     font-size: 42px;
     font-weight: bold;
     color: #252432;
+    text-align: center;
 }
 .section-description{
     font-size: 24px;
@@ -157,7 +158,59 @@ body{
 
 
 /* feedback style */
+.feedback-items{
+    display: flex;
+    justify-content: space-around;
+}
+.feedback-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+.feedback-item{
+    margin-right: 10px;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #F2EDED;
+}
+.feedback-item:hover{
+    background-color: #f5f8ffd3;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(78, 71, 255, 0.3);
+}
+.feedback-item .rating{
+    margin: 0 2px 15px 0;
+    padding: 0;
+}
+.feedback-item p img{
+    margin-left: 2px;
+}
+.feedback-profile{
+    display: flex;
+    align-items: center;
+}
 
+.user-pic{
+    border-radius: 50px;
+}
+.user-descripotion{
+    font-family: "Inter", sans-serif;
+    padding: 10px 0;
+    margin-left: 20px;
+}
+.user-name{
+    margin: 0;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 5px;
+}
+.date{
+    margin: 0;
+    color: #B3B3B3;
+}
+/* getInTouch */
 .getInTouch{
     display: flex;
     justify-content: space-around;
